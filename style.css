@@ -1,0 +1,91 @@
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,212,176,1) 47%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+
+.social-media ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-media ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-media ul li .fa-brands {
+    font-size: 35px;
+    line-height: 60px;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    
+}
+
+.social-media ul li .fa-solid {
+    font-size: 35px;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.social-media ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(2, 24, 56);
+    text-align: center;
+    box-shadow: 0 4px 25px 0 rgb(0, 0, 0);
+    transition: 0.6s;
+    border: 2px solid #fff; /* Border added */
+}
+
+
+.social-media ul li a:hover {
+    transform: scale(2.2);
+    color: #fff;
+}
+
+.social-media ul li:nth-child(1) a:hover {
+    background-color: rgb(76, 125, 231);
+}
+
+.social-media ul li:nth-child(2) a:hover {
+    background-color: rgb(221, 54, 54);
+}
+
+.social-media ul li:nth-child(3) a:hover {
+    background-color: rgb(3, 3, 3);
+}
+
+.social-media ul li:nth-child(4) a:hover {
+    background-color: rgb(94, 192, 238);
+}
+
+.social-media ul li:nth-child(5) a:hover {
+    background-color: rgb(252, 128, 211);
+}
+
+.social-media ul li:nth-child(6) a:hover {
+    background-color: rgb(107, 103, 103);
+}
+
+.social-media ul li:nth-child(7) a:hover {
+    background-color: rgb(209, 6, 6);
+}
+
+.social-media ul li:nth-child(8) a:hover {
+    background-color: rgb(69, 145, 69);
+}
+
+.social-media ul li:nth-child(9) a:hover {
+    background-color: rgb(17, 10, 10);
+}
+
+.social-media ul li:nth-child(10) a:hover {
+    background-color: rgb(221, 155, 155);
+}
